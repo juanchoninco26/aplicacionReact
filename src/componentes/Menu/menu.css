@@ -1,0 +1,52 @@
+.menu{
+    width: 30%;
+    height: 100vh;
+    background-color: #282c34;
+    display: flex;
+    justify-content: center;
+    transition:all 0.5s ease-in-out;
+    visibility: visible;
+}
+.menu-none{
+    width: 0;
+    visibility:hidden;
+    transition:all 0.5s ease-in-out;
+}
+.centro-menu{
+    display: block;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16pt;
+    color: white;
+}
+.centro-menu .click{
+    background-color: transparent;
+    border-style: none;
+    cursor: pointer;
+    float: right;
+}
+.btn-menu{
+    font-size: 20pt;
+    color: white;
+}
+.seccion-menu{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.items .item{
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    padding-left: 20px;
+}
+.items .icon{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.items .item:hover{
+    background-color: white;
+    color: black;
+}

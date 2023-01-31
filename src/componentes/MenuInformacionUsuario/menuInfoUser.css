@@ -1,0 +1,27 @@
+.avatar{
+    width:150px;
+    height:150px;
+    border-radius: 10pc;
+    visibility: visible;
+}
+.avatar-none{
+    width:150px;
+    height:150px;
+    border-radius: 10pc;
+    visibility: hidden;
+}
+.boton{
+    width: 50%;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-style: none;
+    cursor: pointer;
+}
+.linea{
+    width: 100%;
+    height: 1px;
+    background-color: ghostwhite;
+    margin-bottom: 10px;
+}

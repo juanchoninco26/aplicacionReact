@@ -1,0 +1,22 @@
+.menu-h{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #282c34;
+    width: auto;
+    color: white;
+}
+.click{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.items-horizontal{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.item-h{
+    padding-left: 10px;
+    padding-right: 10px;
+}
