@@ -1,0 +1,6 @@
+.contenido{
+    background:var(--light);
+    width: auto;
+    height: 90%;
+    display: flex;
+}

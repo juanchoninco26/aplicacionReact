@@ -1,7 +1,7 @@
 .menu{
     width: 30%;
     height: 100vh;
-    background-color: #282c34;
+    background-color: var(--dark);
     display: flex;
     justify-content: center;
     transition:all 0.5s ease-in-out;
@@ -9,8 +9,10 @@
 }
 .menu-none{
     width: 0;
-    visibility:hidden;
+    height: 100vh;
+    background-color:var(--dark) ;
     transition:all 0.5s ease-in-out;
+    visibility:hidden;
 }
 .centro-menu{
     display: block;
@@ -18,17 +20,13 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 16pt;
-    color: white;
+    color:var(--white);
 }
 .centro-menu .click{
     background-color: transparent;
     border-style: none;
     cursor: pointer;
     float: right;
-}
-.btn-menu{
-    font-size: 20pt;
-    color: white;
 }
 .seccion-menu{
     text-align: center;
@@ -46,7 +44,11 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+.items .link{
+    text-decoration: none;
+    color:var(--white); 
+}
 .items .item:hover{
-    background-color: white;
+    background-color:var(--light);
     color: black;
 }

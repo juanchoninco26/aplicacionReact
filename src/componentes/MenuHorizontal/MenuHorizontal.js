@@ -5,7 +5,6 @@ import "./menuHorizontal.css";
 import {BiMenu} from "react-icons/bi";
 
 function MenuHorizontal({deplegarMenu}) {
-
     return (
         <nav className="menu-h">
             <aside>

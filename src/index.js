@@ -1,10 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+//css
 import './css/index.css';
-import Login from './componentes/Login/Login';
+//pages
 import ErrorPage from './componentes/PageError';
 import Inicio from './pages/inicio';
+import PaginaLogin from './pages/login';
+import Caja from './pages/caja';
+import Ventas from './pages/ventas';
+import Productos from './pages/productos';
+import Acerca from './pages/acerca';
 import reportWebVitals from './reportWebVitals';
+
 import {
   createBrowserRouter,  
   RouterProvider} from 'react-router-dom';
@@ -12,12 +19,28 @@ import {
 const route=createBrowserRouter([
   {
     path:"/",
-    element:<Login />,
+    element:<PaginaLogin />,
     errorElement:<ErrorPage />,
   },
   {
     path:"pages/inicio",
     element:<Inicio />,
+  },
+  {
+    path:"pages/caja",
+    element:<Caja />
+  },
+  {
+    path:"pages/ventas",
+    element:<Ventas />
+  },
+  {
+    path:"pages/productos",
+    element:<Productos />
+  },
+  {
+    path:"pages/acerca",
+    element:<Acerca />
   },
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
